@@ -1,0 +1,15 @@
+.time{
+    display: flex;
+}
+.time div {
+    margin-top: 5%;
+    flex-basis: 25%;
+    font-size: 120%;
+}
+.time-number{
+    font-size: 200%;
+    font-weight: 700;
+}
+.meta{
+    font-weight: 600;
+}
