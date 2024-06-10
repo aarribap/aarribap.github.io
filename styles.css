@@ -1,15 +1,24 @@
-.time{
+.time {
     display: flex;
+    justify-content: center; 
+    margin: 0 auto; 
+    margin-top: 15%;
 }
 .time div {
-    margin-top: 5%;
-    flex-basis: 25%;
+    flex: 1 1 25%;
     font-size: 120%;
+    text-align: center; 
 }
-.time-number{
+.time-number {
     font-size: 200%;
     font-weight: 700;
 }
-.meta{
+.meta {
     font-weight: 600;
+}
+.title-text {
+    text-align: center;
+}
+.container-div {
+    margin: 0 10%;
 }
