@@ -1,4 +1,4 @@
-var timedown = new Date("September 1, 2024 23:59:59").getTime();
+var timedown = new Date("January 31, 2024 23:59:59").getTime();
 var time = setInterval(function(){
     var actualtime = new Date().getTime();
     var resttime = timedown - actualtime;
